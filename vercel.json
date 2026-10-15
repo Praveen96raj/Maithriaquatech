@@ -1,0 +1,8 @@
+{
+  "redirects": [
+    { "source": "/products/all", "destination": "/products#all-products", "permanent": true }
+  ],
+  "rewrites": [
+    { "source": "/(.*)", "destination": "/index.html" }
+  ]
+}
